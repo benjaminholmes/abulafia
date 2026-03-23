@@ -15,7 +15,6 @@
     "node-thermal-printer": "^4.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-p5": "^1.4.1",
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
