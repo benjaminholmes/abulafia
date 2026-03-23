@@ -13,7 +13,6 @@
     "iconv-lite": "^0.6.3",
     "next": "15.3.3",
     "node-thermal-printer": "^4.5.0",
-    "p5": "^2.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-p5": "^1.4.1",
