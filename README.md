@@ -2,4 +2,4 @@ Abulafia is a reimagining of the software in Umberto Eco’s novel Foucault’s 
 
 Abulafia is a desktop only experience that is best played in your browsers full screen mode. 
 
- [Play Here](https://abulafia.vercel.app/) {:target="_blank" rel="noopener"}
+ [Play Here](https://abulafia.vercel.app/ {:target="_blank" rel="noopener"} )
