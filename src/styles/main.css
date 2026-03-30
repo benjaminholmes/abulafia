@@ -314,10 +314,14 @@ body{
 
 @media only screen and (max-width: 2400px) {
    .file-para{
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .story-div{
+    font-size: 19px;
+  }
+
+  .instructions{
     font-size: 19px;
   }
 }
@@ -339,13 +343,11 @@ body{
     padding: 2px 4px; 
   }
 
-   .file-para{
-    font-size: 19px;
-  }
 
   .story-div{
     font-size: 19px;
   }
+
 }
 
 
