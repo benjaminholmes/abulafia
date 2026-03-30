@@ -411,4 +411,12 @@ body{
     .responsive-warning{
       display: block;
     }
+
+    .card-div{
+      display: none;
+    }
+
+    .title-div{
+      display: none;
+    }
 }
