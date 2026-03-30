@@ -316,6 +316,10 @@ body{
    .file-para{
     font-size: 20px;
   }
+
+  .story-div{
+    font-size: 19px;
+  }
 }
 
 
@@ -336,6 +340,10 @@ body{
   }
 
    .file-para{
+    font-size: 19px;
+  }
+
+  .story-div{
     font-size: 19px;
   }
 }
@@ -361,9 +369,6 @@ body{
     height: 500px;
   }
 
-  .story-div{
-    font-size: 19px;
-  }
 
   .file-para-title{
     font-size: 22px;
