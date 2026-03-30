@@ -5,6 +5,7 @@ body{
   background-image: url('/images/bruegel.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .story-div{
@@ -34,7 +35,8 @@ body{
     background-color: #000;
     gap: 6px;
     padding: 8px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
     margin: auto;
     overflow-y: auto;
     flex-wrap: wrap;
@@ -42,7 +44,6 @@ body{
     background-color: transparent;
     animation: fadeIn 2.5s ease-in; 
     width: 100%;
-    display: flex; 
 }
 
 .title-div{
@@ -67,8 +68,7 @@ body{
 .first-div{
   transition: all 150ms ease-in-out;
   border: 2px solid #FFDE21; 
-  border-radius: 5px;     
-  width: 6%;             
+  border-radius: 5px;          
 }
 
 .first-div:hover a{
