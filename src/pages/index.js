@@ -169,10 +169,11 @@ export default function Home() {
                   </h1>
                 )}
             </div>
-
+            <div className="responsive-warning">Abulafia is a desktop only experience</div>
             
             {showCards && (
               <div className="card-div">
+              
                 {shuffledData.map((item, index) => (
                   <ConspiracyPreview
                     key={index}

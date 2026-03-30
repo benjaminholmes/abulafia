@@ -419,4 +419,8 @@ body{
     .title-div{
       display: none;
     }
+
+    body{
+      background-image: none;
+    }
 }
