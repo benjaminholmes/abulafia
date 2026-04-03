@@ -448,6 +448,8 @@ body{
 @media only screen and (max-width: 1000px) {
     .instructions-div{
       padding: 0% 5%;
+      display: grid;
+      place-content: normal;
     }
 
     .instructions-title{
