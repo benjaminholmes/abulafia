@@ -59,7 +59,7 @@ const handleClose = () => {
               <Typewriter
                 onInit={(typewriter) => {
                 typewriter
-                  .changeDelay(40)
+                  .changeDelay(30)
                   .typeString(description)
                   .callFunction(() => {
                     console.log('String typed out!');
