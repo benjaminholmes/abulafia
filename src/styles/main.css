@@ -305,7 +305,7 @@ body{
 
 .responsive-warning{
   display: none;
-  font-size: 60px;
+  font-size: 50px;
   font-family: monospace;
   text-align: center;
 }
@@ -423,7 +423,7 @@ body{
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
     .instructions{
       display: none;
     }
@@ -434,7 +434,7 @@ body{
 
     .card-div{
       display: none;
-    }
+    } 
 
     .title-div{
       display: none;
@@ -443,4 +443,84 @@ body{
     body{
       background-image: none;
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .instructions-div{
+      padding: 0% 15%;
+    }
+
+    .instructions-title {
+      font-family: tarot;
+      font-size: 25px;
+    }
+
+    .instructions {
+      font-family: monospace;
+      font-size: 10px;
+      height: 95%;
+    }
+
+    .instructions-para{
+      height: 185px;
+    }
+
+    .instructions-button{
+      font-size: 12px;
+      width: 35%;
+    }
+
+    .title-div {
+      font-size: 30px;
+    }
+
+    .card-div {
+      grid-template-columns: repeat(8, 1fr);
+    }
+
+    .file-div{
+      border: 15px double #ffde21;
+      display: grid;
+      align-content: space-evenly;
+    }
+
+    file-para-title {
+      font-size: 20px;
+    }
+
+    .file-para {
+        height: 450px;
+        font-size: 13px;
+    }
+
+    .file-title {
+        width: 60%;
+    }
+
+    .file-img {
+        width: 60%;
+    }
+    
+    .right-overlay-div {
+      float: none;
+      text-align: center;
+      width: 70%;
+      margin: auto;
+    }
+
+    .left-overlay-div {
+      float: none;
+    }
+
+    .story-div {
+        font-size: 16px;
+        display: grid;
+        align-content: space-around;
+    }
+
+    .story-btn{
+      width: 50%;
+      margin: auto;
+    }
+
 }

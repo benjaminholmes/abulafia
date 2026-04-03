@@ -169,7 +169,7 @@ export default function Home() {
                   </h1>
                 )}
             </div>
-            <div className="responsive-warning">Abulafia is a desktop only experience</div>
+            <div className="responsive-warning">Turn your device horizontally to play Abulafia</div>
             
             {showCards && (
               <div className="card-div">
