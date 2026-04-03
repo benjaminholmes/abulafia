@@ -269,6 +269,7 @@ body{
     background-position: center;
 }
 
+
 .instructions-title{
     font-size: 120px;
     font-family: tarot;
@@ -305,9 +306,21 @@ body{
 
 .responsive-warning{
   display: none;
-  font-size: 50px;
+  font-size: 40px;
   font-family: monospace;
   text-align: center;
+  justify-content: center;
+}
+
+
+.responsive-alert{
+  color: yellow;
+  display: none;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+  justify-content: center;
+  margin: 33%;
 }
 
 
@@ -422,29 +435,6 @@ body{
 }
 
 
-
-@media only screen and (max-width: 600px) {
-    .instructions{
-      display: none;
-    }
-
-    .responsive-warning{
-      display: block;
-    }
-
-    .card-div{
-      display: none;
-    } 
-
-    .title-div{
-      display: none;
-    }
-
-    body{
-      background-image: none;
-    }
-}
-
 @media only screen and (max-width: 1000px) {
     .instructions-div{
       padding: 0% 5%;
@@ -527,6 +517,29 @@ body{
     .story-btn{
       width: 50%;
       margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .instructions{
+      display: none;
+    }
+
+    .responsive-warning{
+      display: flex;
+    }
+
+    .responsive-alert{
+      display: flex;
+    }
+
+    .card-div{
+      display: none;
+    } 
+
+    .title-div{
+      display: none;
     }
 
 }

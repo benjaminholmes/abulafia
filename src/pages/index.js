@@ -152,7 +152,7 @@ export default function Home() {
                     Begin
                   </button>
                 </div>
-                <div className="responsive-warning">Turn your device horizontally to play Abulafia</div>
+                <div className="responsive-warning">Turn<br></br> your<br></br> device<br></br> horizontally<br></br> to<br></br> play<br></br> Abulafia<br></br></div>
               </div>
             )}
 
@@ -169,7 +169,7 @@ export default function Home() {
                   </h1>
                 )}
             </div>
-            <div className="responsive-warning">Turn your device horizontally to play Abulafia</div>
+            <div className="responsive-alert">Turn<br></br> your<br></br> device<br></br> horizontally<br></br> to<br></br> play<br></br> Abulafia</div>
             
             {showCards && (
               <div className="card-div">
