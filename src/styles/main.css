@@ -447,22 +447,26 @@ body{
 
 @media only screen and (max-width: 1000px) {
     .instructions-div{
-      padding: 0% 15%;
+      padding: 0% 5%;
     }
 
-    .instructions-title {
+    .instructions-title{
+      display: none;
+    }
+
+    .mobile-title {
       font-family: tarot;
       font-size: 25px;
     }
 
     .instructions {
       font-family: monospace;
-      font-size: 10px;
+      font-size: 11px;
       height: 95%;
     }
 
     .instructions-para{
-      height: 185px;
+      height: 165px;
     }
 
     .instructions-button{
