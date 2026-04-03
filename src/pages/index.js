@@ -152,7 +152,6 @@ export default function Home() {
                     Begin
                   </button>
                 </div>
-                <div className="responsive-warning">Turn<br></br> your<br></br> device<br></br> horizontally<br></br> to<br></br> play<br></br> Abulafia<br></br></div>
               </div>
             )}
 
