@@ -77,7 +77,7 @@ export default function Home() {
       }
       const generateStory = async () => {
         setLoading(true);
-        await delay(25000);
+        await delay(5000);
         setError("");
         try {
           console.log('Sending prompts to API:', selectedPrompts); // Debug
